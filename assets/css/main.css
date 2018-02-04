@@ -57,6 +57,15 @@ h1 {
 	letter-spacing: 1pt;
 }
 
+.desc-top {
+	color: #383B37;
+	font: 28pt "futura_ltcondensed";
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	padding-top: 15pt;	
+}
+
 .page {
 	width: 100%;
 	max-width: 1600px;
@@ -138,6 +147,24 @@ h1 {
 	visibility: hidden;
 }
 
+.fill-btn {
+	width: 160px;
+	height: 50px;
+	border: none;
+	border-radius: 2px;
+	background: #383B37;
+	color: #FFF;
+	font: 600 12pt "Open Sans";
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	cursor: pointer;
+
+}
+
+.fill-btn:hover {
+	background: #2A2C29;
+}
+
 .add-btn {
 	width: 160px;
 	height: 50px;
@@ -153,6 +180,62 @@ h1 {
 
 .add-btn:hover {
 	background: #2A2C29;
+}
+
+.modal-dialog {
+	height: 600px;
+}
+
+.modal-content {
+	height: 80%;
+}
+
+.modal-footer {
+	height: 10%;
+}
+
+.modal-title {
+	color: #383B37;
+	font: 20pt "futura_ltcondensed";
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+}
+
+.modal-fill-btn {
+	width: 110px;
+	height: 35px;
+	border: none;
+	border-radius: 2px;
+	background: #383B37;
+	color: #FFF;
+	font: 600 12pt "Open Sans";
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	cursor: pointer;
+}
+
+.modal-cl-btn {
+	width: 110px;
+	height: 35px;
+	border: none;
+	border-radius: 2px;
+	background: #383B37;
+	color: #FFF;
+	font: 600 12pt "Open Sans";
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	cursor: pointer;
+}
+
+.txt-area {
+	overflow: auto;
+	wrap: true;
+	width: 100%;
+	height: 235pt;
+	resize: none;
+	font-size: 12pt;
+	
 }
 
 .qpi-heading {
@@ -238,6 +321,11 @@ h1 {
 	}
 
 	.add-btn {
+		width: 120px;
+		height: 40px;
+	}
+	
+	.fill-btn {
 		width: 120px;
 		height: 40px;
 	}

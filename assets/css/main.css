@@ -111,7 +111,7 @@ h1 {
 }
 
 .output-card {
-	height: 95%;
+	height: 200px;
 	background: #FFF;
 	padding: 30px 40px 70px 70px;
 	margin-bottom:15px;
@@ -174,6 +174,7 @@ h1 {
 .fill-btn {
 	width: 160px;
 	height: 50px;
+	margin-right: 5px;
 	border: none;
 	border-radius: 2px;
 	background: #383B37;
@@ -206,6 +207,8 @@ h1 {
 .add-btn {
 	width: 160px;
 	height: 50px;
+	margin-bottom: 10px;
+	margin-right: 5px;
 	border: none;
 	border-radius: 2px;
 	background: #383B37;
@@ -381,7 +384,7 @@ h1 {
 	}
 
 	.input-table th {
-		font-size: 12pt;
+		font-size: 10.25pt;
 	}
 
 	.add-btn, .fill-btn, .res-btn {
@@ -393,7 +396,7 @@ h1 {
 		font-size: 12pt;
 	}
 
-	.qpi-display {
+	.qpi-display, .qpi-display2 {
 		font-size: 50pt;
 	}
 

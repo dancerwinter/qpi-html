@@ -111,7 +111,7 @@ h1 {
 }
 
 .output-card {
-	height: 68%;
+	height: 95%;
 	background: #FFF;
 	padding: 30px 40px 70px 70px;
 	margin-bottom:15px;
@@ -172,6 +172,19 @@ h1 {
 }
 
 .fill-btn {
+	width: 160px;
+	height: 50px;
+	border: none;
+	border-radius: 2px;
+	background: #383B37;
+	color: #FFF;
+	font: 600 12pt "Open Sans";
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	cursor: pointer;
+}
+
+.res-btn {
 	width: 160px;
 	height: 50px;
 	border: none;
@@ -371,13 +384,8 @@ h1 {
 		font-size: 12pt;
 	}
 
-	.add-btn {
-		width: 120px;
-		height: 40px;
-	}
-	
-	.fill-btn {
-		width: 120px;
+	.add-btn, .fill-btn, .res-btn {
+		width: 85px;
 		height: 40px;
 	}
 
